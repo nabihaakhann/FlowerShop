@@ -412,7 +412,7 @@ select {
 }
 .reservationImg
 {
-    width: 1400px;
+    width: 1000px;
     height: 500px;
     display: flex;
     background-size: cover;
