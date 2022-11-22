@@ -10,5 +10,4 @@ function addToCart(item){
     selectedItem.append(img);
     cartItems.append(selectedItem);
 }
-Footer
-© 2022 GitHub, Inc
+
