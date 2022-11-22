@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="addToCart.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  <script type="text/javascript" src="addToCart.js"></script>
+</head>
+<body>
+    
+    <div class="container"> 
+        <div class="navbar">
+        <div class="logo">
+            <img scr="images/2.png">
+        </div>
+         <table border="0" width="100%" bgcolor="pink" height="8%">
+            <tr>
+                <th width="20%"><font color="white" size="4"><a href="index.html">HOME</a></font></th>
+                <th width="20%"><font color="white" size="4"><a href="account.html">ACCOUNT</a></font></th>
+                <th width="20%"><font color="white" size="4"><a href="store.html">PRODUCTS</a></font></th>
+                <th width="20%"><font color="white" size="4"><a href="aboutus.html">ABOUT US</a></font></th>
+                </tr>
+            </table>
+            
+            
+    </div>
+        
+    </div>
+   <!--------cart item details----------> 
+   <div class="cartpage" id="CART">
+    <div class="title">CART</div><hr/>
+    <div id="title"></div>
+</div> 
+<div class="menuBody">
+            <div class="menuItem" id="item1">
+                <div class="priceTag">Rs. 250</div>
+                <img src="./Images/menu-1.png" alt="Finnish Soup image" class="menuImg">
+                <div class="menuItemText">Pink Roses</div>
+                <button onclick="addToCart(item1)">Add To Cart</button>
+            </div>
+            <div class="menuItem" id="item2">
+                <div class="priceTag">Rs. 200</div>
+                <img src="./Images/menu-2.png" alt="Finnish Soup image" class="menuImg">
+                <div class="menuItemText">White Lilies</div>
+                <button onclick="addToCart(item2)">Add To Cart</button>
+            </div>
+            <div class="menuItem" id="item3">
+                <div class="priceTag">Rs. 210</div>
+                <img src="./Images/menu-3.png" alt="Finnish Soup image" class="menuImg">
+                <div class="menuItemText">Red Roses</div>
+                <button onclick="addToCart(item3)">Add To Cart</button>
+            </div>
+            <div class="menuItem" id="item4">
+                <div class="priceTag">Rs. 180</div>
+                <img src="./Images/menu-4.png" alt="Finnish Soup image" class="menuImg">
+                <div class="menuItemText">Daisy</div>
+                <button onclick="addToCart(item4)">Add To Cart</button>
+            </div>
+            <div class="menuItem" id="item5">
+                <div class="priceTag">Rs. 100</div>
+                <img src="./Images/menu-5.png" alt="Finnish Soup image" class="menuImg">
+                <div class="menuItemText">Orchids</div>
+                <button onclick="addToCart(item5)">Add To Cart</button>
+            </div>
+            <div class="menuItem" id="item6">
+                <div class="priceTag">Rs. 350</div>
+                <img src="./Images/menu-6.png" alt="Finnish Soup image" class="menuImg">
+                <div class="menuItemText">Tulips</div>
+                <button onclick="addToCart(item6)">Add To Cart</button>
+            </div>
+        </div>
+    </div>
